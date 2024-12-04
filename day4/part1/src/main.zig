@@ -36,7 +36,7 @@ pub fn main() !void {
         }
     }
 
-    std.debug.print("Sum of products: {d}\n", .{sum});
+    std.debug.print("Amount of XMAS found: {d}\n", .{sum});
 }
 
 fn countXmasAtPosition(grid: [GRID_X][GRID_Y]u8, x: i32, y: i32) u32 {
